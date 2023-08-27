@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3591C3"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_marginBottom="16dp"
+        android:background="#47A6DB"
+        android:ems="10"
+        android:hint="Ingresa texto 1"
+        android:inputType="text"
+        android:paddingLeft="20dp" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_marginBottom="16dp"
+        android:background="#47A7DC"
+        android:ems="10"
+        android:hint="Ingresa texto 2"
+        android:inputType="text"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/buttonComparar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4EDC61"
+        android:text="Comparar" />
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="#000000"
+        android:backgroundTint="#D6F1FF"
+        android:gravity="center"
+        android:text="Resultado"
+        android:textColor="#616161"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+</LinearLayout>
